@@ -1,4 +1,17 @@
 .App {
-  text-align: center;
-  margin-top: 2rem;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.strategy-ui {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    width: 250px;
 }

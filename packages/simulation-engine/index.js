@@ -21,6 +21,7 @@ export class GameState {
     
     this.tick = 0;
     this.timeElapsed = 0;
+    this.totalDamage = { player1: 0, player2: 0 }; // Add this
     this.winner = null;
   }
 }

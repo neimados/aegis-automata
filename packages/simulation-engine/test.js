@@ -8,7 +8,7 @@ console.log('--- Running Simulation Test ---');
 const gameState = new GameState({}, {}, 'match-alpha');
 
 // 2. Add a mob heading for player1's base
-const mob1 = new Mob('grunt', { x: 750, y: 50 }, 'player1'); // Start near player2's base
+const mob1 = new Mob('grunt', { x: 500, y: 20 }, 'player1'); // Start near player2's base
 gameState.mobs.push(mob1);
 
 console.log('Initial State:');

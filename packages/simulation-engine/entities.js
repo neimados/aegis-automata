@@ -25,9 +25,10 @@ export class Hero {
     this.id = nextEntityId++;
     this.type = type;
     this.position = { ...startPosition };
-    this.behavior = behavior; // 'defensive', 'neutral', 'offensive'
-    this.health = 200; // Example value
-    this.attackRange = 150; // Example value
-    this.attackDamage = 10; // Example value
+    this.behavior = behavior;
+    this.health = 200;
+    this.attackRange = 150;
+    this.attackDamage = 10;
+    this.attackCooldown = 0; 
   }
 }
